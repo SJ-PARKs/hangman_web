@@ -21,6 +21,6 @@ jobs:
     - name: Build the Docker image
       run: docker build --tag sjparks/hangman:latest .
     - name: docker push
-      run: docker push ${{ secrets.DOCKER_USER }}/hangman:latest
+      run: docker push sjparks/hangman:latest
 
       
